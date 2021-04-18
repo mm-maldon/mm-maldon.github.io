@@ -82,3 +82,15 @@ p1 {
     height:50px;
     width:50px;
 }
+
+.l-candle{
+    position:absolute;
+    top: 40px;
+    left: 25%;
+}
+
+.r-candle{
+    position: absolute;
+    top: 40px;
+    right: 25%;
+}
