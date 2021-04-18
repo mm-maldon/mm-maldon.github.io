@@ -1,0 +1,49 @@
+body{
+    background-image: url('darkbrick.png');
+}
+
+@font-face {
+    font-family: PirataOne;
+    src: url(PirataOne-Regular.ttf);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: gold;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: PirataOne;
+    text-align: center;
+    color: maroon;
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    left: 470px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+
+li{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    display:inline-block;
+    padding: 12px;
+    background-color: maroon;
+    border: 1px solid rgb(219,0,0);
+}
+
+
