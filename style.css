@@ -27,7 +27,8 @@ h1 {
 .site.nav{
     position: absolute;
     top: 100px;
-    left: 460px;
+    left: 50%;
+    margin-left: -165px;
 }
 
 ul {
@@ -37,8 +38,7 @@ ul {
 }
 
 li{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
     text-decoration: none;
     display:inline-block;
     padding: 12px;
@@ -48,12 +48,13 @@ li{
 
 .about.box{
     position:absolute;
-    top: 200px;
-    left: 230px;
+    top:200px;
+    left: 50%;
+    margin-left: -400px;
 
     display:block;
     background-color: rgb(33,32,30);
-    border: 1px solid white;
+    border: 1px solid rgb(219,0,0);
 
     height: 300px;
     width:800px;
@@ -71,7 +72,8 @@ p1 {
 .icon.links{
     position:absolute;
     top: 510px;
-    left: 530px;
+    left: 50%;
+    margin-left:-100px;
     display: flex;
 }
 
