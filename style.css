@@ -37,7 +37,7 @@ ul {
     padding: 10px;
 }
 
-li{
+.nav.list{
     margin-right: 10px;
     text-decoration: none;
     display:inline-block;
@@ -46,7 +46,7 @@ li{
     border: 1px solid rgb(219,0,0);
 }
 
-.about.box{
+.info.box{
     position:absolute;
     top:200px;
     left: 50%;
@@ -61,7 +61,14 @@ li{
 }
 
 p1 {
-    color:gold;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:white;
+}
+
+p2 {
+    margin-left: 20px;
+    color: white;
 }
 
 .icon {
@@ -73,7 +80,7 @@ p1 {
     position:absolute;
     top: 510px;
     left: 50%;
-    margin-left:-100px;
+    margin-left:-105px;
     display: flex;
 }
 
@@ -93,4 +100,36 @@ p1 {
     position: absolute;
     top: 40px;
     right: 25%;
+}
+
+.res.link{
+    color: white;
+    margin-left: 20px;
+}
+
+.res.link:hover{
+    color:gold;
+}
+
+.res-icon-container{
+    display:inline-block;
+    margin-left: 40px;
+    height:60px;
+    width:60px;
+}
+
+.res-link-container{
+    display:inline-block;
+}
+
+p3 {
+    color: white;
+}
+
+.drive.link{
+    color:white;
+}
+
+.drive.link:hover{
+    color:gold;
 }
