@@ -51,6 +51,7 @@ ul {
     top:200px;
     left: 50%;
     margin-left: -430px;
+    overflow-y: scroll;
 
     display:block;
     background-color: rgb(33,32,30);
